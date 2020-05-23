@@ -1,5 +1,5 @@
 ﻿#include "Constant.h"
-
+#include <string>
 
 const QString Constant::iniFileName = "./PearlCannonHelper.ini";
 const vec3d Constant::delta_position[2] = {
@@ -79,3 +79,8 @@ const double Constant::sign_r[4][4][3] = {
 		{-1, 1, +1}  // 11
 	}
 };
+cout<<"done calculating";
+  }
+
+return 0;
+    }
